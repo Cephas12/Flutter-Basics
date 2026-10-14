@@ -98,11 +98,7 @@ class HomePage extends StatelessWidget {
                                   fontSize: 16),
                             ),
                             Text(
-                              popularDiets[index].level +
-                                  ' | ' +
-                                  popularDiets[index].duration +
-                                  ' | ' +
-                                  popularDiets[index].calorie,
+                              '${popularDiets[index].level} | ${popularDiets[index].duration} | ${popularDiets[index].calorie}',
                               style: const TextStyle(
                                   color: Color(0xff7B6F72),
                                   fontSize: 13,
